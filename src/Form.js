@@ -86,7 +86,7 @@ function defaultReducer(state, action) {
   
     return (
       <>
-        <div>
+        <div className="FormActions">
           <button type="submit" className="Button Button--primary" >Save</button>
           <button type="button" className="Button" onClick={handleReset}>
             Reset

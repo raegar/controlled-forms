@@ -100,3 +100,11 @@
     background-color: #189507;
     background-image: linear-gradient(#31AE20, #006300);
 }
+
+.FormActions {
+    display: block;
+    width: 100%;
+    margin: 1em -1em;
+    text-align: right;
+
+}
