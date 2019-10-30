@@ -1,5 +1,17 @@
 .App {
-  text-align: center;
+  font-size: 16px;
+  font-family: 'SUN', sans-serif;
+  line-height: 1.5em;
+  color: #FFFFFF;
+  background-color: #1E488C;
+  -webkit-font-smoothing: antialiased;
+}
+
+.App__shell {
+  width: 40%;
+  max-width: 1190px;
+  margin: 0 auto 20px;
+  padding: 0 5px;
 }
 
 .App-logo {

@@ -1,4 +1,6 @@
 import React, { useReducer, useEffect, useContext } from "react";
+import "./styles.css";
+
 function defaultReducer(state, action) {
     switch (action.type) {
       case "reset":
@@ -85,11 +87,12 @@ function defaultReducer(state, action) {
     return (
       <>
         <div>
-          <button type="submit">Save</button>
-          <button type="button" onClick={handleReset}>
+          <button type="submit" className="Button Button--primary" >Save</button>
+          <button type="button" className="Button" onClick={handleReset}>
             Reset
           </button>
         </div>
+        <div><h1>Component State: </h1><p></p></div>
         <div>
           Values:
           <pre>{JSON.stringify(values, null, 2)}</pre>
